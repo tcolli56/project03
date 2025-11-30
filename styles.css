@@ -1,0 +1,113 @@
+/* Accessibiliy Notes
+
+https://venngage.com/tools/accessible-color-palette-generator
+
+7.39:1 Contrast Ratio (black/9b8bf4)
+Passing 
+Small Text 4.5:1 filter
+Large Text 3:1 filter
+
+7.43:1 Contrast Ratio (white/#054fb9) for TABLE
+Passing 
+Small Text 4.5:1 filter
+Large Text 3:1 filter
+
+*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif, 'Times New Roman', serif;
+  color: black;
+  background-color: #9b8bf4;
+}
+
+p {
+  color: black;
+  font-style: italic;
+}
+
+/*A different font used for my HEADINGS*/
+h1 {
+  color: black;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3, h4 {
+  color: black;
+  text-align: left;
+}
+
+a {
+  padding: 10px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  color: black;
+}
+
+/* Navigation bar link */
+nav a {
+  display: inline; /* don't want in block */
+  padding: 10px;
+}
+
+/* Navigation bar */
+nav {
+  text-align: center;
+}
+
+/* Tables */
+table {
+  margin: 0 auto;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200 200 200);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+td,th {
+  border: 1px solid white;
+  padding: 10px 20px;
+  background-color: #054fb9;
+  color: white;
+}
+
+th {
+  background-color: whitesmoke;
+  color: black;
+}
+
+td {
+  text-align: center;
+}
+
+caption {
+  padding: 10px;
+  font-size: large;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+/*Align list items to the left*/
+ul, li {
+  text-align: left;
+}
+
+/*Colors for Links according to Type*/
+.foodSite {
+  color: white;
+}
+.benefitsSupport {
+  color: red;
+}
